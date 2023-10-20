@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+} 
+/* menubar , navbar */
+#menu .item_menu>ul{
+    display: flex;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-family: iransans;
+    color: black;
+}
+/* level1 */
+#menu .item_menu>ul>li ul li{
+    border-bottom: 1px solid rgba(100, 100, 100, 0.305);
+
+}
+#menu .item_menu>ul>li{
+    padding: 30px;
+    font-size: 26px;
+    font-weight: 900;
+}
+#menu .item_menu ul{
+    background-color: rgb(192, 174, 255);
+}
+/* level2 */
+#menu>.item_menu>ul>li .level-2{
+    position: absolute;
+    background-color: rgb(151, 125, 246);
+    margin-top: 30px;
+    right: 82px;
+    width: 130px;
+    border-radius: 0 0 5px 5px;
+    
+    
+    
+}
+#menu>.item_menu>ul>li .level-2>li>a:hover{
+    color: azure;
+    transition: all 0.9s ease;
+}
+#menu>.item_menu>ul>li .level-2{
+    display: none;
+    transition: all 0.7s ease;
+}
+#menu>.item_menu>ul>li:hover .level-2{
+    display: block;
+    
+}
+#menu .item_menu ul>li .level-2>li{
+    font-size: 17px;
+    font-weight: 200;
+    padding: 10px;
+}
+/* level3*/
+#menu>.item_menu>ul>li .level-3{
+    position: absolute;
+    background-color: rgb(151, 125, 246);
+    margin-top: 30px;
+    right: 184px;
+    width: 130px;
+    border-radius: 0 0 5px 5px;
+    
+    
+    
+}
+#menu>.item_menu>ul>li .level-3>li>a:hover{
+    color: azure;
+    transition: all 0.9s ease;
+}
+#menu>.item_menu>ul>li .level-3{
+    display: none;
+    transition: all 0.7s ease;
+}
+#menu>.item_menu>ul>li:hover .level-3{
+    display: block;
+    
+}
+#menu .item_menu ul>li .level-3>li{
+    font-size: 17px;
+    font-weight: 200;
+    padding: 10px;
+}
+/* level4*/
+#menu>.item_menu>ul>li .level-4{
+    position: absolute;
+    background-color: rgb(151, 125, 246);
+    margin-top: 30px;
+    right: 684px;
+    width: 130px;
+    border-radius: 0 0 5px 5px;
+    
+    
+    
+}
+#menu>.item_menu>ul>li .level-4>li>a:hover{
+    color: azure;
+    transition: all 0.9s ease;
+}
+#menu>.item_menu>ul>li .level-4{
+    display: none;
+    transition: all 0.7s ease;
+}
+#menu>.item_menu>ul>li:hover .level-4{
+    display: block;
+    
+}
+#menu .item_menu ul>li .level-4>li{
+    font-size: 17px;
+    font-weight: 200;
+    padding: 10px;
+}
